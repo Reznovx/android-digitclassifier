@@ -6,12 +6,11 @@ Aplikasi Tulisan Tangan Digit Classifier dengan TensorFlow Lite menggunakan CNN<
 <hr>
 
 <a name="general-information"></a>
-
 ## 💡 General Information
 Machine Learning telah menjadi alat penting dalam mobile development, yang memungkinkan banyak kemampuan cerdas yang dapat diterapkan ke aplikasi mobile. Aplikasi ini menggunakan dataset [MNIST](https://www.kaggle.com/datasets/hojjatk/mnist-dataset) dari Kaggle yang di download melalui API Keras, dimana dataset ini akan digunakan untuk melatih model sehingga bisa membaca sebuah digit (angka) dari tulisan tangan. Model yang diterapkan pada aplikasi ini dapat mencapai skor akurasi hingga 98%.
 
-<a name="creator-information"></a>
 
+<a name="creator-information"></a>
 ## 👥 Member
 | Nama                 | NPM          | E-Mail                    |
 | -------------------- | ------------ | ------------------------- |
@@ -22,8 +21,7 @@ Machine Learning telah menjadi alat penting dalam mobile development, yang memun
 
 
 <a name="technologies-used"></a>
-
-## Technologies Used
+## 🔨 Tools
 - Android SDK - API Level 34 (Android 14)
 - Kotlin - v1.9.23
 - Gradle (Build) - v8.2.0
@@ -32,23 +30,20 @@ Machine Learning telah menjadi alat penting dalam mobile development, yang memun
 - TensorFlow Lite - v2.5.0
 
 <a name="goals"></a>
-
 ## 🎯 Goals
 - How to train a handwritten digit classifier model using TensorFlow
 - How to convert a TensorFlow model to TensorFlow Lite
 - How to deploy a TensorFlow Lite model to an Android app
 
 <a name="requirements"></a>
-
 ## 📝 Requirements
 - Google Colab
-- Android Studio (versi terbaru)
+- Android Studio
 - Android Emulator atau Android device
 - Basic Pemrograman Kotlin untuk Android
 
 
 <a name="setup"></a>
-
 ## 🛠️ Setup
 1. Install Android Studio (jika belum)
 2. Clone repository ini menggunakan command berikut:
@@ -60,44 +55,26 @@ Machine Learning telah menjadi alat penting dalam mobile development, yang memun
 3. Buka Android Studio
 4. Klik `File` -> `Open...`
 5. Pilih folder `android-digitclassifier` pada direktori dimana folder tersebut di extract 
-6. Tunggu hingga proses import selesai
-7. Klik `Sync Now`
+6. Tunggu hingga proses import/build selesai 
+7. Pilih device (Physical / Emulator)
+8. klik `Run` 
 
-
-<!-- <a name="usage"></a> -->
-
-<!-- ## Usage
-1. To run the backend, you can use the following steps:
-    - go to `api` folder
-    - run this command in your terminal
-    ```bash
-    uvicorn main-tf-serving:app --reload --host 0.0.0.0
-    ```
-    - or just type
-    ```bash
-    python main.py
-    ``` -->
     
 <a name="videocapture"></a>
-
 ## 🎥 Video Capture
 <nl>
 
 ![android-app-demo Gif](https://github.com/Reznovx/android-digitclassifier/blob/main/app/src/main/assets/android-app-demo.gif?raw=true)
 
-<a name="project-status">
-
+<a name="project-status"></a>
 ## Project Status
 _Complete_ ✅
 
-<a name="room-for-improvement">
-
-## Room for Improvement
-Room for Improvement:
+<a name="room-for-improvement"></a>
+## Room for Improvements
 - Optimizing the model accuracy with other layering approach
 
-<a name="acknowledgements">
-
+<a name="acknowledgements"></a>
 ## 🙏 Acknowledgements
 - Thanks To Allah SWT
 <hr>

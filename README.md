@@ -13,10 +13,12 @@ Machine Learning telah menjadi alat penting dalam mobile development, yang memun
 <a name="creator-information"></a>
 
 ## 👥 Member
-| Nama                  | NPM          | E-Mail                 |
-| --------------------- | ------------ | ---------------------- |
-| Alfareza K Deva M     | 20214350xxxx | alfar2801@gmail.com    |
-| Reza Khareisa Putra   | 202143502344 | rezakhareisa@gmail.com |
+| Nama                 | NPM          | E-Mail                    |
+| -------------------- | ------------ | ------------------------- |
+| Aji Rifqi N          | 202143502395 | ajirifqi45@gmail.com      |
+| Alfareza K Deva M    | 202143502334 | alfar2801@gmail.com       |
+| Reza Khareisa Putra  | 202143502344 | rezakhareisa@gmail.com    |
+| Syarla Capriliani    | 202143502344 | syarlacpriliani@gmail.com |
 
 
 <a name="technologies-used"></a>
@@ -56,8 +58,8 @@ Machine Learning telah menjadi alat penting dalam mobile development, yang memun
     - atau download langsung melalui tombol `<> Code` -> `Download ZIP` diatas
     - Extract file zip yang sudah di download
 3. Buka Android Studio
-4. Klik `Import project`
-5. Pilih folder `android-digitclassifier` pada direktori yang dimana folder tersebut di extract 
+4. Klik `File` -> `Open...`
+5. Pilih folder `android-digitclassifier` pada direktori dimana folder tersebut di extract 
 6. Tunggu hingga proses import selesai
 7. Klik `Sync Now`
 
